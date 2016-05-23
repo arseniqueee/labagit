@@ -2,7 +2,7 @@
 package laba3;
 
 import java.util.Scanner;
-
+import java.util.*
 
 public class Laba3 {
 
