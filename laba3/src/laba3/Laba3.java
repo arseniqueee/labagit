@@ -16,7 +16,7 @@ public class Laba3 {
         
         int array[] = new int[n];
         
-        System.out.println("Введите"+n+" число");
+        
         
         for (c=0; c<n; c++) array[c] = scanner.nextInt();
         
