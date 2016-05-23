@@ -8,7 +8,7 @@ public class Laba3 {
 
     
     public static void main(String[] args) {
-        int c, d, n, swap;
+        int c, d, n, pasw;
         Scanner scanner = new Scanner (System.in);
         
         System.out.println("Введите кол-во чисел");
@@ -24,9 +24,9 @@ public class Laba3 {
             for (d=0; d<n-c-1; d++){
                 if (array[d]>array[d+1])
                 {
-                    swap = array[d];
+                    pasw = array[d];
                     array[d] = array[d+1];
-                    array[d+1] = swap;
+                    array[d+1] = pasw;
                 
                 }
             }
